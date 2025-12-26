@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: karthiga-bdyux
+  project: fire-and-smoke-detection-hiwia-ktzhq-whvfq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/karthiga-bdyux/fire-and-smoke-detection-hiwia-ktzhq-whvfq/dataset/1

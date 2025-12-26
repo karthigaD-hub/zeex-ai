@@ -1,10 +1,17 @@
+# ---------- CORE ----------
+numpy
+opencv-python
+matplotlib
+pandas
+
+# ---------- PYTORCH ----------
 torch
 torchvision
-opencv-python
-numpy
-pandas
-matplotlib
-roboflow
+
+# ---------- YOLO ----------
 ultralytics
-fiftyone
-jupyterlab
+
+# ---------- OPTIONAL ----------
+ roboflow       # REMOVE (causes pillow-avif source build on Windows)
+ fiftyone       # REMOVE (causes tons of source builds)
+ jupyterlab   
